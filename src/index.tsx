@@ -115,7 +115,7 @@ export default class AppIntroSlider<ItemT = any> extends React.Component<
     onPress?: () => void,
     render?: () => React.ReactNode,
   ) => {
-    const content = render ? render() : this._renderDefaultButton(name, label);
+    const content = render ? render(onPress) : this._renderDefaultButton(name, label);
     return this._renderOuterButton(content, name, onPress);
   };
 
