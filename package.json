@@ -28,6 +28,12 @@
     "slider"
   ],
   "author": "Jacob Lauritzen <jacsebl@hotmail.com>",
+  "contributors": [
+    {
+      "name": "Bastien Courtaro",
+      "email": "bastien@keeex.net"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacse/react-native-app-intro-slider/issues"
