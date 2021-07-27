@@ -3,7 +3,7 @@
 An easy-to-use yet very configurable app introduction slider/swiper based on FlatList that supports RTL.
 
 ```sh
-yarn add react-native-app-intro-slider
+npm add @keeex/react-native-app-intro-slider
 ```
 
 ## Usage
@@ -170,10 +170,10 @@ The component extends `FlatList` so all FlatList-props are valid.
 | showPrevButton   | `boolean`  | `false`                                      | Enable to show a previous button. If `showSkipButton` is true, the skip button will be displayed on the first page and prev button on subsequent one                                             |
 | showNextButton   | `boolean`  | `true`                                       | Disable to hide the next button                                                                                                                                                                  |
 | showDoneButton   | `boolean`  | `true`                                       | Disable to hide the done button                                                                                                                                                                  |
-| renderNextButton | `function` | renders a Text-component                     | Use to supply your own next button. Has no effect if using `renderPagination`.                                                                                                                                                               |
-| renderPrevButton | `function` | renders a Text-component                     | Use to supply your own prev button . Has no effect if using `renderPagination`                                                                                                                                                              |
-| renderDoneButton | `function` | renders a Text-component                     | Use to supply your own done button. Has no effect if using `renderPagination`                                                                                                                                                               |
-| renderSkipButton | `function` | renders a Text-component                     | Use to supply your own skip button. Has no effect if using `renderPagination`                                                                                                                                                              |
+| renderNextButton | `function` | renders a component (with onPress as first arg)                    | Use to supply your own next button. Has no effect if using `renderPagination`.                                                                                                                                                               |
+| renderPrevButton | `function` | renders a component (with onPress as first arg)                    | Use to supply your own prev button . Has no effect if using `renderPagination`                                                                                                                                                              |
+| renderDoneButton | `function` | renders a component (with onPress as first arg)                    | Use to supply your own done button. Has no effect if using `renderPagination`                                                                                                                                                               |
+| renderSkipButton | `function` | renders a component (with onPress as first arg)                    | Use to supply your own skip button. Has no effect if using `renderPagination`                                                                                                                                                              |
 
 ### Methods
 
